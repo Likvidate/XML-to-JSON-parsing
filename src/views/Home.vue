@@ -1,17 +1,17 @@
 <template>
   <div>
-    <BKMain/>
+    <Main/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BKMain from '@/components/BKMain.vue'
+import Main from '@/components/Main.vue'
 
 export default {
   name: 'Home',
   components: {
-    BKMain
+    Main
   }
 }
 </script>

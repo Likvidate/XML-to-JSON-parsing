@@ -14,7 +14,7 @@
 <script>
 const txml = require('txml')
 export default {
-  name: 'BKData',
+  name: 'Data',
   props: {
   },
   data: function () {
@@ -59,7 +59,7 @@ export default {
   methods: {
     getData () {
         var self = this
-        fetch('https://eshop.bkgrupe.lt/media/prdct_fd_wqty_approx.xml').then(function(resp) {
+        fetch('').then(function(resp) {
           return resp.text()
         }).then(function(data) {
           let parser = new DOMParser(),
